@@ -19,7 +19,7 @@ import { namedNode, quad } from '@rdfjs/data-model';
     quad(namedNode('jesse'), namedNode('knows'), namedNode('bob')),
     quad(namedNode('bob'), namedNode('knows'), namedNode('jesse')),
   ]);
-  const thing = loader.resources['thing'];
+  const thing = loader.resources['jesse'];
 
   console.log(thing.toQuads());
 })();
